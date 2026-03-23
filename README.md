@@ -23,7 +23,7 @@ Este proyecto es una adaptación del sistema de hand tracking del siguiente repo
 
 https://github.com/gjcliff/FrankaTeleop.git
 
-La adaptación permite utilizar el hand tracking y teleoperación con el robot Franka FR3, integrando la detección de gestos y posiciones de la mano para controlar el robot de manera intuitiva.
+La adaptación permite utilizar el hand tracking y teleoperación con el robot Franka FR3 utilizando el moveit y controlador bàsico de Franka FR3, integrando la detección de gestos y posiciones de la mano para controlar el robot de manera intuitiva.
 
 ## Componentes principales
 - **Hand Tracking:** Utiliza OpenCV y una cámara RealSense para detectar la mano y extraer sus gestos y coordenadas.
@@ -34,7 +34,7 @@ La adaptación permite utilizar el hand tracking y teleoperación con el robot F
 1. Instala las dependencias y sigue la guía de instalación de [franka_ros2](https://github.com/frankaemika/franka_ros2).
 2. Clona este repositorio y compílalo en tu workspace de ROS 2.
 ```sh
-git clone
+git clone https://github.com/Bravo-Robots/franka-realsense-handtracking.git
 cd ~/Franka_hand_tracking
 colcon build --symlink-install
 source install/setup.bash
