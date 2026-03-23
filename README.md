@@ -8,6 +8,15 @@ Antes de usar este repositorio, es necesario instalar el stack de ROS 2 para Fra
 
 https://github.com/frankaemika/franka_ros2
 
+## Paquetes principales
+
+* Media Pipe:
+```sh
+pip install mediapipe
+```
+* RealSense Camera
+    * follow setup instructions here: https://github.com/IntelRealSense/realsense-ros/tree/ros2-development
+
 ## Descripción
 
 Este proyecto es una adaptación del sistema de hand tracking del siguiente repositorio:
@@ -24,8 +33,19 @@ La adaptación permite utilizar el hand tracking y teleoperación con el robot F
 
 1. Instala las dependencias y sigue la guía de instalación de [franka_ros2](https://github.com/frankaemika/franka_ros2).
 2. Clona este repositorio y compílalo en tu workspace de ROS 2.
-3. Sigue los comandos de ejemplo en `franka_comandos.txt` para lanzar los nodos y comenzar la teleoperación.
-
+```sh
+git clone
+cd ~/Franka_hand_tracking
+colcon build --symlink-install
+source install/setup.bash
+```
+3. Para lanzar los nodos y comenzar la teleoperación, corre el siguiente comando launch.
+* Para teleoperaciòn con robot real:
+```sh
+ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=false   robot_ip:=192.168.1.11   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
+```
+* Para teleoperaciòn en simulaciòn con rviz:
+```sh
+ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=true   robot_ip:=dont-care   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
+```
 ---
-
-Para más detalles sobre la configuración y uso, revisa los archivos de comandos y la documentación interna del repositorio.
