@@ -49,11 +49,11 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 3. Para lanzar los nodos y comenzar la teleoperación, corre el siguiente comando launch.
-* Para teleoperaciòn con robot real:
+* Para teleoperación con robot real:
 ```sh
 ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=false   robot_ip:=192.168.1.11   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
 ```
-* Para teleoperaciòn en simulaciòn con rviz:
+* Para teleoperación en simulaciòn con rviz:
 ```sh
 ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=true   robot_ip:=dont-care   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
 ```
