@@ -1,0 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_generator_py/hand_interfaces/msg/_finger_data_s.c" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_finger_data_s.c.o" "gcc" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_finger_data_s.c.o.d"
+  "/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_generator_py/hand_interfaces/msg/_pinch_s.c" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_pinch_s.c.o" "gcc" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_pinch_s.c.o.d"
+  "/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_generator_py/hand_interfaces/srv/_hand_pose_s.c" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/srv/_hand_pose_s.c.o" "gcc" "CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/srv/_hand_pose_s.c.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/robot/Franka_hand_tracking/build/hand_interfaces/CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/robot/Franka_hand_tracking/build/hand_interfaces/CMakeFiles/hand_interfaces__rosidl_generator_c.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

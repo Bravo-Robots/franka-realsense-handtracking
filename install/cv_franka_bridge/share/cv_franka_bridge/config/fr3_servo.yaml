@@ -1,0 +1,15 @@
+servo_node:
+  ros__parameters:
+    command_in_type: "twist"
+    move_group_name: "fr3_arm"
+    planning_frame: "fr3_link0"
+    ee_frame_name: "fr3_hand_tcp"
+    twist_command_in_topic: "delta_twist_cmds"
+
+    publish_period: 0.02
+    incoming_command_timeout: 0.2
+
+    check_collisions: true
+    collision_check_rate: 10.0
+    self_collision_proximity_threshold: 0.02
+    scene_collision_proximity_threshold: 0.03

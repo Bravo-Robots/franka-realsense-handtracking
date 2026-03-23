@@ -1,0 +1,8 @@
+{
+  "package_name": "hand_interfaces",
+  "non_idl_tuples": [
+    "/home/robot/Franka_hand_tracking/src/hand_interfaces:srv/HandPose.srv",
+    "/home/robot/Franka_hand_tracking/src/hand_interfaces:msg/FingerData.msg",
+    "/home/robot/Franka_hand_tracking/src/hand_interfaces:msg/Pinch.msg"
+  ]
+}

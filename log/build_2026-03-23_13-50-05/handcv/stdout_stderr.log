@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/handcv/handcv.egg-info
+writing ../../build/handcv/handcv.egg-info/PKG-INFO
+writing dependency_links to ../../build/handcv/handcv.egg-info/dependency_links.txt
+writing entry points to ../../build/handcv/handcv.egg-info/entry_points.txt
+writing requirements to ../../build/handcv/handcv.egg-info/requires.txt
+writing top-level names to ../../build/handcv/handcv.egg-info/top_level.txt
+writing manifest file '../../build/handcv/handcv.egg-info/SOURCES.txt'
+reading manifest file '../../build/handcv/handcv.egg-info/SOURCES.txt'
+writing manifest file '../../build/handcv/handcv.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/Franka_hand_tracking/build/handcv/build
+creating /home/robot/Franka_hand_tracking/build/handcv/build/lib
+creating /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv
+copying handcv/handcv.py -> /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv
+copying handcv/mediapipehelper.py -> /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv
+copying handcv/__init__.py -> /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv
+running install
+running install_lib
+creating /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv/handcv.py -> /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv/mediapipehelper.py -> /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv
+copying /home/robot/Franka_hand_tracking/build/handcv/build/lib/handcv/__init__.py -> /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv
+byte-compiling /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv/handcv.py to handcv.cpython-310.pyc
+byte-compiling /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv/mediapipehelper.py to mediapipehelper.cpython-310.pyc
+byte-compiling /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/Franka_hand_tracking/install/handcv/share/ament_index
+creating /home/robot/Franka_hand_tracking/install/handcv/share/ament_index/resource_index
+creating /home/robot/Franka_hand_tracking/install/handcv/share/ament_index/resource_index/packages
+copying resource/handcv -> /home/robot/Franka_hand_tracking/install/handcv/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv
+creating /home/robot/Franka_hand_tracking/install/handcv/share/handcv/config
+copying config/handcv.rviz -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv/config
+copying config/hand_landmarker.task -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv/config
+copying config/gesture_recognizer.task -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv/config
+copying config/high_density_preset.json -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv/config
+creating /home/robot/Franka_hand_tracking/install/handcv/share/handcv/launch
+copying launch/camera.launch.py -> /home/robot/Franka_hand_tracking/install/handcv/share/handcv/launch
+running install_egg_info
+Copying ../../build/handcv/handcv.egg-info to /home/robot/Franka_hand_tracking/install/handcv/lib/python3.10/site-packages/handcv-0.0.1-py3.10.egg-info
+running install_scripts
+Installing handcv script to /home/robot/Franka_hand_tracking/install/handcv/lib/handcv
+writing list of installed files to '/home/robot/Franka_hand_tracking/build/handcv/install.log'

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: handcv
+Version: 0.0.1
+Summary: A package implementing computer vision with the        Intel Realsense D435i Camera to recognize and find the 3D location of a human hand.
+Home-page: UNKNOWN
+Maintainer: Graham Clifford
+Maintainer-email: gclifford@u.northwestern.edu
+License: APLv2
+Platform: UNKNOWN
+
+UNKNOWN
+

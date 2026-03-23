@@ -1,0 +1,44 @@
+[1.066s] Invoking command in '/home/robot/Franka_hand_tracking/src/cv_franka_bridge': AMENT_PREFIX_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/Franka_hand_tracking/build/cv_franka_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages:/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv_franka_bridge build --build-base /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build install --record /home/robot/Franka_hand_tracking/build/cv_franka_bridge/install.log --single-version-externally-managed install_data
+[1.329s] running egg_info
+[1.329s] creating ../../build/cv_franka_bridge/cv_franka_bridge.egg-info
+[1.329s] writing ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/PKG-INFO
+[1.330s] writing dependency_links to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/dependency_links.txt
+[1.330s] writing entry points to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/entry_points.txt
+[1.330s] writing requirements to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/requires.txt
+[1.330s] writing top-level names to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/top_level.txt
+[1.330s] writing manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+[1.331s] reading manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+[1.332s] writing manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+[1.332s] running build
+[1.332s] running build_py
+[1.333s] creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build
+[1.333s] creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib
+[1.333s] creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+[1.333s] copying cv_franka_bridge/__init__.py -> /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+[1.333s] copying cv_franka_bridge/cv_franka_bridge.py -> /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+[1.333s] running install
+[1.333s] running install_lib
+[1.334s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+[1.334s] copying /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge/__init__.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+[1.334s] copying /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge/cv_franka_bridge.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+[1.334s] byte-compiling /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge/__init__.py to __init__.cpython-310.pyc
+[1.334s] byte-compiling /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge/cv_franka_bridge.py to cv_franka_bridge.cpython-310.pyc
+[1.337s] running install_data
+[1.337s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index
+[1.337s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index
+[1.337s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index/packages
+[1.338s] copying resource/cv_franka_bridge -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index/packages
+[1.338s] copying package.xml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge
+[1.338s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/launch
+[1.338s] copying launch/integrate_servo.launch.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/launch
+[1.338s] creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+[1.338s] copying config/integrate.rviz -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+[1.338s] copying config/integrate_servo.rviz -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+[1.338s] copying config/fr3_servo.yaml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+[1.338s] copying config/fr3_servo_full.yaml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+[1.338s] running install_egg_info
+[1.339s] Copying ../../build/cv_franka_bridge/cv_franka_bridge.egg-info to /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge-0.0.0-py3.10.egg-info
+[1.340s] running install_scripts
+[1.359s] Installing cv_franka_bridge script to /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/cv_franka_bridge
+[1.360s] writing list of installed files to '/home/robot/Franka_hand_tracking/build/cv_franka_bridge/install.log'
+[1.383s] Invoked command in '/home/robot/Franka_hand_tracking/src/cv_franka_bridge' returned '0': AMENT_PREFIX_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/Franka_hand_tracking/install/hand_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robot/Franka_hand_tracking/build/cv_franka_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages:/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv_franka_bridge build --build-base /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build install --record /home/robot/Franka_hand_tracking/build/cv_franka_bridge/install.log --single-version-externally-managed install_data

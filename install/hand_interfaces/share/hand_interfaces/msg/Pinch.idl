@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hand_interfaces/msg/Pinch.msg
+// generated code does not contain a copyright notice
+
+#include "hand_interfaces/msg/FingerData.idl"
+
+module hand_interfaces {
+  module msg {
+    struct Pinch {
+      hand_interfaces::msg::FingerData wrist;
+
+      hand_interfaces::msg::FingerData thumb;
+
+      hand_interfaces::msg::FingerData index;
+
+      hand_interfaces::msg::FingerData middle;
+
+      hand_interfaces::msg::FingerData ring;
+
+      hand_interfaces::msg::FingerData pinky;
+    };
+  };
+};

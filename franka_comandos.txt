@@ -1,0 +1,80 @@
+source /opt/ros/humble/setup.bash
+source ~/franka_ros2_ws/install/setup.bash
+source ~/fr3_tracking_ws/install/setup.bash
+
+ros2 launch franka_fr3_moveit_config moveit.launch.py robot_ip:=192.168.1.11 use_fake_hardware:=false
+ros2 launch franka_fr3_moveit_config moveit.launch.py robot_ip:=dont-care use_fake_hardware:=true
+
+Modo Estático:
+ros2 run fr3_tracking pose_to_ik_and_move --ros-args -p mode:=static
+ros2 service call /move_once std_srvs/srv/Trigger "{}"
+
+Modo Dinamico:
+ros2 run fr3_tracking pose_to_ik_and_move --ros-args   -p mode:=dynamic   -p min_update_period:=0.5   -p traj_time:=2.0   -p pos_epsilon:=0.005
+
+
+ros2 run tf2_ros tf2_echo fr3_link0 fr3_hand_tcp
+
+Target 1:
+- Translation: [0.373, -0.116, 0.489]
+- Rotation: in Quaternion (xyzw) [0.788, 0.613, -0.006, -0.059]
+- Rotation: in RPY (radian) [-3.041, -0.062, 1.318]
+- Rotation: in RPY (degree) [-174.244, -3.534, 75.540]
+- Matrix:
+  0.249  0.965 -0.082  0.373
+  0.966 -0.242  0.084 -0.116
+  0.062 -0.100 -0.993  0.489
+  0.000  0.000  0.000  1.000
+ 
+ros2 topic pub --once /target_pose_base geometry_msgs/msg/PoseStamped "{
+  header: {frame_id: 'fr3_link0'},
+  pose: {position: {x: 0.373, y: -0.116, z: 0.489}, orientation: {x: 0.788, y: 0.613, z: -0.006, w: -0.059}}
+}"
+
+  
+Target 2:
+- Translation: [0.436, 0.081, 0.510]
+- Rotation: in Quaternion (xyzw) [0.834, 0.527, 0.155, -0.051]
+- Rotation: in RPY (radian) [3.059, -0.318, 1.140]
+- Rotation: in RPY (degree) [175.284, -18.240, 65.323]
+- Matrix:
+  0.397  0.895  0.205  0.436
+  0.863 -0.439  0.249  0.081
+  0.313  0.078 -0.947  0.510
+  0.000  0.000  0.000  1.000
+
+Target 3:
+- Translation: [0.346, -0.055, 0.477]
+- Rotation: in Quaternion (xyzw) [0.093, 0.995, -0.018, 0.010]
+- Rotation: in RPY (radian) [-3.107, 0.023, 2.955]
+- Rotation: in RPY (degree) [-178.041, 1.345, 169.296]
+- Matrix:
+ -0.982  0.186  0.017  0.346
+  0.186  0.982 -0.038 -0.055
+ -0.023 -0.034 -0.999  0.477
+  0.000  0.000  0.000  1.000
+
+
+
+Procesos ROS 2/CLI vivos:
+
+ps -u robot -f | grep -E 'ros2|franka|dds|fastdds|fastrtps' | grep -v grep
+
+pkill -9 -f ros2
+pkill -f "/opt/ros/humble/bin/ros2 topic"
+pkill -f "/opt/ros/humble/bin/ros2 action"
+ros2 daemon stop
+rm -f /dev/shm/fastrtps_*
+ros2 daemon start
+
+export RMW_FASTRTPS_USE_SHM=0
+
+
+ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=true   robot_ip:=dont-care   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
+
+ros2 launch cv_franka_bridge integrate_servo.launch.py   use_fake_hardware:=false   robot_ip:=192.168.1.11   use_rviz:=true   use_realsense:=true   run_franka_teleop:=true
+
+sudo lsof /dev/video* | grep -iE 'video|realsense' || true
+sudo fuser -v /dev/video* || true
+
+

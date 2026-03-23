@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/cv_franka_bridge/cv_franka_bridge.egg-info
+writing ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/requires.txt
+writing top-level names to ../../build/cv_franka_bridge/cv_franka_bridge.egg-info/top_level.txt
+writing manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/cv_franka_bridge/cv_franka_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build
+creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib
+creating /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+copying cv_franka_bridge/__init__.py -> /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+copying cv_franka_bridge/cv_franka_bridge.py -> /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge
+running install
+running install_lib
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+copying /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge/__init__.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+copying /home/robot/Franka_hand_tracking/build/cv_franka_bridge/build/lib/cv_franka_bridge/cv_franka_bridge.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge
+byte-compiling /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge/cv_franka_bridge.py to cv_franka_bridge.cpython-310.pyc
+running install_data
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index/packages
+copying resource/cv_franka_bridge -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/launch
+copying launch/integrate_servo.launch.py -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/launch
+creating /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+copying config/integrate.rviz -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+copying config/integrate_servo.rviz -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+copying config/fr3_servo.yaml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+copying config/fr3_servo_full.yaml -> /home/robot/Franka_hand_tracking/install/cv_franka_bridge/share/cv_franka_bridge/config
+running install_egg_info
+Copying ../../build/cv_franka_bridge/cv_franka_bridge.egg-info to /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/python3.10/site-packages/cv_franka_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cv_franka_bridge script to /home/robot/Franka_hand_tracking/install/cv_franka_bridge/lib/cv_franka_bridge
+writing list of installed files to '/home/robot/Franka_hand_tracking/build/cv_franka_bridge/install.log'

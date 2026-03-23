@@ -1,0 +1,6 @@
+source;share/handcv/hook/pythonpath.ps1
+source;share/handcv/hook/pythonpath.dsv
+source;share/handcv/hook/pythonpath.sh
+source;share/handcv/hook/ament_prefix_path.ps1
+source;share/handcv/hook/ament_prefix_path.dsv
+source;share/handcv/hook/ament_prefix_path.sh

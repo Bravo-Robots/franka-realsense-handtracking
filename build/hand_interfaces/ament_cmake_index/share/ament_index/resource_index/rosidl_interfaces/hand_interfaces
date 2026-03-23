@@ -1,0 +1,8 @@
+msg/FingerData.idl
+msg/FingerData.msg
+msg/Pinch.idl
+msg/Pinch.msg
+srv/HandPose.idl
+srv/HandPose.srv
+srv/HandPose_Request.msg
+srv/HandPose_Response.msg

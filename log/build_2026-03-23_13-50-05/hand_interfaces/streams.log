@@ -1,0 +1,307 @@
+[0.011s] Invoking command in '/home/robot/Franka_hand_tracking/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/Franka_hand_tracking/src/hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/robot/Franka_hand_tracking/install/hand_interfaces
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.475s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.676s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.806s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.882s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.892s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.907s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.020s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.347s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.996s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.031s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.031s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.031s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.064s] -- Found PythonExtra: .so  
+[2.132s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.173s] -- Added test 'lint_cmake' to check CMake code style
+[2.175s] -- Added test 'xmllint' to check XML markup files
+[2.179s] -- Configuring done
+[2.217s] -- Generating done
+[2.228s] -- Build files have been written to: /home/robot/Franka_hand_tracking/build/hand_interfaces
+[2.237s] Invoked command in '/home/robot/Franka_hand_tracking/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/Franka_hand_tracking/src/hand_interfaces -DCMAKE_INSTALL_PREFIX=/home/robot/Franka_hand_tracking/install/hand_interfaces
+[2.239s] Invoking command in '/home/robot/Franka_hand_tracking/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/Franka_hand_tracking/build/hand_interfaces -- -j8 -l8
+[2.279s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.290s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.298s] [  4%] Built target ament_cmake_python_copy_hand_interfaces
+[2.657s] [  4%] Built target hand_interfaces__cpp
+[2.667s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.669s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.669s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.675s] running egg_info
+[2.676s] creating hand_interfaces.egg-info
+[2.676s] writing hand_interfaces.egg-info/PKG-INFO
+[2.677s] writing dependency_links to hand_interfaces.egg-info/dependency_links.txt
+[2.677s] writing top-level names to hand_interfaces.egg-info/top_level.txt
+[2.677s] writing manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[2.681s] reading manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[2.682s] writing manifest file 'hand_interfaces.egg-info/SOURCES.txt'
+[2.721s] [ 10%] Built target ament_cmake_python_build_hand_interfaces_egg
+[2.800s] [ 14%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/srv/detail/hand_pose__functions.c.o[0m
+[2.800s] [ 14%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/msg/detail/pinch__functions.c.o[0m
+[2.803s] [ 17%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hand_interfaces/msg/detail/finger_data__functions.c.o[0m
+[2.890s] [ 19%] [32m[1mLinking C shared library libhand_interfaces__rosidl_generator_c.so[0m
+[2.933s] [ 19%] Built target hand_interfaces__rosidl_generator_c
+[2.945s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.948s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.948s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.986s] [ 31%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/msg/finger_data__type_support.cpp.o[0m
+[2.986s] [ 31%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/srv/hand_pose__type_support.cpp.o[0m
+[2.986s] [ 31%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hand_interfaces/msg/pinch__type_support.cpp.o[0m
+[3.167s] [ 34%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/srv/detail/hand_pose__type_support.cpp.o[0m
+[3.255s] [ 36%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/srv/detail/dds_fastrtps/hand_pose__type_support.cpp.o[0m
+[3.404s] [ 38%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/srv/hand_pose__type_support.cpp.o[0m
+[3.433s] [ 40%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/msg/detail/dds_fastrtps/finger_data__type_support.cpp.o[0m
+[3.435s] [ 44%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/msg/finger_data__type_support.cpp.o[0m
+[3.435s] [ 44%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_cpp.so[0m
+[3.459s] [ 46%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/msg/detail/finger_data__type_support.cpp.o[0m
+[3.490s] [ 48%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hand_interfaces/msg/pinch__type_support.cpp.o[0m
+[3.502s] [ 48%] Built target hand_interfaces__rosidl_typesupport_cpp
+[3.517s] [ 51%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/srv/detail/hand_pose__type_support.c.o[0m
+[3.527s] [ 53%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hand_interfaces/msg/detail/dds_fastrtps/pinch__type_support.cpp.o[0m
+[3.544s] [ 55%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/srv/detail/hand_pose__type_support_c.cpp.o[0m
+[3.556s] [ 57%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_c.so[0m
+[3.585s] [ 59%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/msg/detail/finger_data__type_support.c.o[0m
+[3.627s] [ 59%] Built target hand_interfaces__rosidl_typesupport_c
+[3.638s] [ 61%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hand_interfaces/msg/detail/pinch__type_support.c.o[0m
+[3.640s] [ 63%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/msg/detail/finger_data__type_support_c.cpp.o[0m
+[3.692s] [ 65%] [32m[1mLinking C shared library libhand_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.747s] [ 65%] Built target hand_interfaces__rosidl_typesupport_introspection_c
+[3.759s] [ 68%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hand_interfaces/msg/detail/pinch__type_support.cpp.o[0m
+[3.769s] [ 70%] [32mBuilding CXX object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hand_interfaces/msg/detail/pinch__type_support_c.cpp.o[0m
+[4.064s] [ 72%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.174s] [ 72%] Built target hand_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.185s] [ 74%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.196s] [ 76%] [32m[1mLinking CXX shared library libhand_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.266s] [ 76%] Built target hand_interfaces__rosidl_typesupport_introspection_cpp
+[4.269s] [ 76%] Built target hand_interfaces__rosidl_typesupport_fastrtps_c
+[4.289s] [ 76%] Built target hand_interfaces
+[4.311s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.772s] [ 78%] Built target hand_interfaces__py
+[4.793s] [ 80%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_pinch_s.c.o[0m
+[4.793s] [ 85%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/msg/_finger_data_s.c.o[0m
+[4.793s] [ 85%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hand_interfaces/srv/_hand_pose_s.c.o[0m
+[4.941s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/libhand_interfaces__rosidl_generator_py.so[0m
+[4.983s] [ 87%] Built target hand_interfaces__rosidl_generator_py
+[5.004s] [ 93%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.004s] [ 93%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.004s] [ 93%] [32mBuilding C object CMakeFiles/hand_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.111s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.111s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.114s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.153s] [100%] Built target hand_interfaces__rosidl_typesupport_c__pyext
+[5.153s] [100%] Built target hand_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.157s] [100%] Built target hand_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.168s] Invoked command in '/home/robot/Franka_hand_tracking/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/Franka_hand_tracking/build/hand_interfaces -- -j8 -l8
+[5.178s] Invoking command in '/home/robot/Franka_hand_tracking/build/hand_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/Franka_hand_tracking/build/hand_interfaces
+[5.185s] -- Install configuration: ""
+[5.185s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/ament_index/resource_index/rosidl_interfaces/hand_interfaces
+[5.185s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__struct.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__functions.c
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__functions.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/hand_pose.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/pinch.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.186s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/finger_data.h
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__functions.c
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__functions.c
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__struct.h
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.h
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__functions.h
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__struct.h
+[5.187s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__functions.h
+[5.188s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.h
+[5.188s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/library_path.sh
+[5.188s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/library_path.dsv
+[5.188s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_c.so
+[5.188s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_c.so" to ""
+[5.189s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.189s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.189s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.189s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_fastrtps_c.h
+[5.189s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.189s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.189s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.189s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_fastrtps_c.h
+[5.189s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_fastrtps_c.h
+[5.190s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.190s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.190s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.190s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.190s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/hand_pose.hpp
+[5.190s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.190s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__struct.hpp
+[5.190s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.hpp
+[5.190s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__builder.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__traits.hpp
+[5.191s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/finger_data.hpp
+[5.191s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__struct.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__builder.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__traits.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.hpp
+[5.191s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__struct.hpp
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__traits.hpp
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__builder.hpp
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/pinch.hpp
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.192s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.192s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.192s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/dds_fastrtps
+[5.192s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[5.192s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.193s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.193s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.193s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_fastrtps_cpp.hpp
+[5.193s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/dds_fastrtps
+[5.193s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.193s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.193s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.193s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.193s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.193s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.c
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_introspection_c.h
+[5.194s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.194s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_introspection_c.h
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.c
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_introspection_c.h
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.c
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.194s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_c.so
+[5.195s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.195s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_c.so
+[5.195s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_c.so" to ""
+[5.195s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces
+[5.195s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv
+[5.195s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail
+[5.195s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__type_support.cpp
+[5.195s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/srv/detail/hand_pose__rosidl_typesupport_introspection_cpp.hpp
+[5.195s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg
+[5.195s] -- Up-to-date: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__type_support.cpp
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/finger_data__rosidl_typesupport_introspection_cpp.hpp
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/include/hand_interfaces/hand_interfaces/msg/detail/pinch__type_support.cpp
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.196s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_cpp.so
+[5.196s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/pythonpath.sh
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/pythonpath.dsv
+[5.196s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose_s.c
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose.py
+[5.197s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/__init__.py
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_c.c
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/libhand_interfaces__rosidl_generator_py.so
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/__init__.py
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/__init__.py
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch_s.c
+[5.198s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch.py
+[5.199s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data_s.c
+[5.199s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data.py
+[5.199s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.199s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/_hand_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.233s] Listing '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/__init__.py'...
+[5.233s] Listing '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/__init__.py'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_finger_data.py'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/msg/_pinch.py'...
+[5.233s] Listing '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/__init__.py'...
+[5.233s] Compiling '/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/srv/_hand_pose.py'...
+[5.237s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.237s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.237s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.238s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.238s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.238s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/local/lib/python3.10/dist-packages/hand_interfaces/hand_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.238s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_py.so
+[5.239s] -- Set runtime path of "/home/robot/Franka_hand_tracking/install/hand_interfaces/lib/libhand_interfaces__rosidl_generator_py.so" to ""
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/srv/HandPose.idl
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/msg/FingerData.idl
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/msg/Pinch.idl
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/srv/HandPose.srv
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/srv/HandPose_Request.msg
+[5.239s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/srv/HandPose_Response.msg
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/msg/FingerData.msg
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/msg/Pinch.msg
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/ament_index/resource_index/package_run_dependencies/hand_interfaces
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/ament_index/resource_index/parent_prefix_path/hand_interfaces
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/ament_prefix_path.sh
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/ament_prefix_path.dsv
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/path.sh
+[5.240s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/environment/path.dsv
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/local_setup.bash
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/local_setup.sh
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/local_setup.zsh
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/local_setup.dsv
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/package.dsv
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/ament_index/resource_index/packages/hand_interfaces
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cExport.cmake
+[5.241s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_cppExport.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.242s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cExport.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cppExport.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.243s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_pyExport.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/export_hand_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.244s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.245s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.245s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfacesConfig.cmake
+[5.245s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/cmake/hand_interfacesConfig-version.cmake
+[5.245s] -- Installing: /home/robot/Franka_hand_tracking/install/hand_interfaces/share/hand_interfaces/package.xml
+[5.247s] Invoked command in '/home/robot/Franka_hand_tracking/build/hand_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/Franka_hand_tracking/build/hand_interfaces

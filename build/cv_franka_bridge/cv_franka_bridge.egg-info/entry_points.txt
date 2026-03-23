@@ -1,0 +1,3 @@
+[console_scripts]
+cv_franka_bridge = cv_franka_bridge.cv_franka_bridge:main
+

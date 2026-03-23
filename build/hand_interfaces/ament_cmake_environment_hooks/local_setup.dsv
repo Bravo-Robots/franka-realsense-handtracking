@@ -1,0 +1,4 @@
+source;share/hand_interfaces/environment/ament_prefix_path.sh
+source;share/hand_interfaces/environment/library_path.sh
+source;share/hand_interfaces/environment/path.sh
+source;share/hand_interfaces/environment/pythonpath.sh

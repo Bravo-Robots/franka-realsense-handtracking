@@ -1,0 +1,3 @@
+/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_adapter/hand_interfaces:srv/HandPose.idl
+/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_adapter/hand_interfaces:msg/FingerData.idl
+/home/robot/Franka_hand_tracking/build/hand_interfaces/rosidl_adapter/hand_interfaces:msg/Pinch.idl

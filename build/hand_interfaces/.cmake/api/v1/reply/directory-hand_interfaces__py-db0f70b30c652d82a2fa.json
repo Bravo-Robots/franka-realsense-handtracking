@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hand_interfaces__py",
+		"source" : "/home/robot/Franka_hand_tracking/build/hand_interfaces/hand_interfaces__py"
+	}
+}
